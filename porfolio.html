@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <script src="https://kit.fontawesome.com/62a81d06a5.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom right,rgb(231, 54, 54),rgb(250, 100, 125),yellow);
+            height: 100vw;
+            font-family:'Lucida Console','Times New Roman', Times, serif;
+            letter-spacing: 1px;
+        }
+        th{
+            width: 25vw;
+            border:  yellow;
+            box-shadow: 0px 2px yellow;
+            font-size: x-large;
+        }
+        th:hover{
+            background-color: rgb(168, 221, 34);
+            
+        }
+        .bottom{
+            width: 20vw;
+        }
+        .column{
+            width: 25vw;
+            border-right: 1px;
+            padding: 0.75rem;
+        }
+        .data{
+            width: 75vw;
+            padding: 0.75rem;
+        }
+
+        .bigRow{
+            height: 10rem;
+        }
+        .halfRow{
+            width: 50vw;
+        }
+        img{
+            /* height: 6rem;
+            margin: 2rem;
+            width: 4rem; */
+            border: yellow;
+            position: center;
+            box-shadow: 3px 3px 2px yellow, 1px 1px white, 3px 3px white;
+        }
+        .imgpad{
+            padding: 20px;
+            padding-left: 100px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            
+        }
+        table,td,tr,th{
+            text-align: center;
+            /*border: 1px solid black;*/
+           /* border-collapse: collapse;*/
+            
+        }
+        .singleRow{
+            width: 100vw;
+            padding: 2rem;
+            font-size:x-large;
+            text-shadow: 1px 1px 6px yellow;
+            background-color: yellow;
+            color: rgb(243, 75, 131);
+        }
+        .singleRow:hover{
+            background-color: rgb(248, 248, 245);
+            color: rgb(243, 75, 131);
+            
+        }
+        h3{
+            text-shadow: 1px 1px 8px yellow;
+            font-size: larger;
+            color: rgb(20, 71, 117);
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .heading{
+            height: 3rem;
+            /*border-top: none;*/
+            border-radius: 3px;
+            
+        }
+        .head1{
+            border-radius: 5px;
+        }
+        th.head1:hover{
+            background-color: rgb(244, 238, 126);
+        }
+        .footer{
+            /*background-attachment: fixed;*/
+            bottom: 1px;
+            position: absolute;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(7, 73, 7);
+        }
+        th a:hover{
+            color: white;
+            cursor: pointer;
+            
+        }
+        i a:hover{
+            
+            color: rgb(7, 139, 254);
+        }
+
+        tr{
+            box-shadow: 0px 2px yellow;
+            
+        }
+        td.bottom{
+            font-size: xx-small;
+            background-color: rgb(255, 255, 194);
+        }
+        
+
+        td{
+            padding: 1.5rem;
+        }
+        p{
+            color: aliceblue;
+            text-align: right;
+        }
+        i:hover{
+            cursor:pointer;
+            color: rgb(7, 139, 254);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="heading">
+            <th style="background-color: yellow;" class="head1"><a href="#heading">MONICA ADDAMS</a></th>   <th><a href="#experience">EXPERIENCE</a></th>   <th><a href="#achievements">ACHIEVEMENTS</a></th>   <th><a href="#footer">CONTACT</a></th>
+        </tr>
+    </table>
+    <table  id="heading">
+        <tr class="bigRow">
+            <td class="halfRow imgpad"><img style="border: 2px double yellow" src="https://media.istockphoto.com/id/1318858332/photo/headshot-portrait-of-smiling-female-employee-posing-in-office.jpg?b=1&s=170667a&w=0&k=20&c=xaXWxTDSzfZp6Xa16RFBfFknXBRQkfkZD8BKr07-Aac="></td>   
+            <td class="halfRow">
+                <div>
+                    <h3>Hi! I am Monica Addams</h3>
+
+                </div>
+                <div>
+                    <p style="font-family:'Times New Roman', Times, serif;">
+                        I am currently a student in Stanford University and an intern at Google. I was born and
+                        brought up in California. Being a 5 star coder on CodeChef, I do freelancing and aspire to
+                        grab a good job.
+                    </p>
+                </div>
+            </td>
+        </tr>
+    </table>
+<table>
+    <table>
+        <tr>
+            <td class="singleRow"  id="experience">EXPERIENCE</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td class="column">2021</td>   <td class="data">Freelancing for Coderdotcom</td>
+        </tr>
+        <tr>
+            <td class="column">2022</td>   <td class="data">Freelancing for internshala</td>
+        </tr>
+        <tr>
+            <td class="column">2022</td>   <td class="data">Intern at Google</td>
+        </tr>
+    </table>
+    <table  id="achievements">
+        <tr>
+            <td class="singleRow">Achievements</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td class="column">2021</td>   <td class="data">5 star coder at CodeChef</td>
+        </tr>
+        <tr>
+            <td class="column">2022</td>   <td class="data">5 star coder at CodeChef</td>
+        </tr>
+        <tr>
+            <td class="column">2022</td>   <td class="data">5 star coder at Codedotcom</td>
+        </tr>
+    </table>
+</table>
+
+    <table id="footer">
+        <div>
+        <tr>
+            <b> 
+                <td class="bottom"><i class="fa-brands fa-github fa-2x"><a href="https://github.com/">github</a></i></td>
+                <td class="bottom"><i class="fa-solid fa-user fa-2x"><a href="https://www.wikipedia.org/">wikipedia</a></i></td>    
+                <td class="bottom"><i class="fa-brands fa-linkedin fa-2x"><a href="https://in.linkedin.com/">linkedIn</a></i></td>   
+                <td class="bottom"><i class="fa-solid fa-address-book fa-2x"><a href="https://www.phone.com/virtual-phone-number/">Phone Number</a></i></td>    
+                <td class="bottom"><i class="fa-solid fa-envelope fa-2x"><a href="https://mail.google.com/mail/">Gmail</a></i></td>
+            </b>
+        </tr>
+    </div>
+    </table>
+    
+</body>
+</html> 
